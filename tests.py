@@ -50,7 +50,7 @@ class CorrectTensor:
                  crossOpBack : MyCrossBackward = None) -> None:
         # the __ prefix mark private attributes (it can't be recovered
         # outside of the class)
-        
+
         assert (isinstance(data, (list, np.ndarray, int))), "The given data is of an invalid type"
 
         # code the init here (take into account the different possible input types)
